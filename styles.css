@@ -88,12 +88,12 @@ body {
   text-decoration: none;
   display: flex;
   justify-content: start;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67);
 }
 .contact-info__item:hover,
 .contact-info__item:focus {
   color: var(--link-text-color);
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .contact-info__item-icon-wrapper {
